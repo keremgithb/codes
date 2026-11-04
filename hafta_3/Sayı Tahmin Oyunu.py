@@ -5,7 +5,7 @@ deneme=0
 while (True):
     try:
         tahmin=int(input("Bir sayı giriniz (1-100):"))
-        if tahmin<0 or tahmin>100:
+        if tahmin<1 or tahmin>100:
             print("Lütfen geçerli bir değer giriniz!")
             continue
         deneme+=1
