@@ -1,0 +1,10 @@
+sayi=int(input("Bir sayı giriniz:"))
+i=1
+toplam=0
+cikti=""
+while (sayi>=i):
+    toplam+=i
+    cikti+="+"+str(i)
+    i+=1
+cikti=cikti[1:]
+print(cikti+"="+str(toplam))
